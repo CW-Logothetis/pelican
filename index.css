@@ -1,0 +1,275 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+    text-align: center;
+    color: #131313;
+    background-color: #fff;
+}
+
+/* body {
+    background-image: url("pelican.jpg"); 
+    background-size: cover;
+}   */
+   
+/* .bg {
+    width: 600px;
+    background-image: url("pelican.jpg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+h1 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #262626;
+    color: skyblue
+    
+}
+
+h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+h3 {
+    margin: 20px 0 10px 0;
+}
+
+p {
+    
+}
+
+section {
+    /* border: 2px solid red; */
+    /* margin: 10px 0;     */
+}
+
+#container-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 2px blue solid; */
+    /* height: 100%; */
+}
+
+#count-border {
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pelican-counter {
+    margin-left: 20px;
+    padding: 60px 10px;
+    font-size: 70px;
+    /* background-color: lightgray; */
+    /* border: 2px solid black; */
+    border-radius: 50px;
+}
+
+#button-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 2px solid red; */
+    margin: 0 0 0 80px;
+}
+
+.pel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #fff;
+    border-bottom: 1px gray solid;
+    /* background-color: #131313; */
+    /* border: 2px solid red; */
+}
+
+#previous-entries {
+    
+}
+
+button {
+    border-radius: 30px;
+    border: 2px solid #131313;
+    background: #181717;
+    color: #FFF;  
+}
+
+button:hover,
+button:focus {
+    border: 2px solid #4472C4;
+    color: skyblue;
+}
+
+.btn-plus {
+    margin: 0 0 30px 0;
+    padding: 10px 30px 18px 30px;
+    font-size: 70px;
+}
+
+.btn-minus {
+    margin: 0 auto;
+    padding: 7px 30px;
+    /* font-size: 70px; */
+}
+
+.btn-pelican {
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 20px;
+    width: 150px;
+    border: 2px solid #131313;
+    background: #fff;
+    color: #131313; 
+}
+
+.btn-pelican:hover,
+.btn-pelican:focus{
+    border: 2px solid #4472C4;
+    color: skyblue;
+    background-color: #262626;
+}
+
+.btn-del-last, .btn-del-all {
+    font-size: 20px;
+    font-style: bold;
+    color: darkred;
+    background-color: white;
+    margin-top: 30px;
+    padding: 10px 0;
+    width: 150px;
+    border: 1px solid darkred;
+}
+
+/* .btn-del-all {
+    font-size: 20px;
+    font-style: bold;
+    background-color: #fff;
+    color: darkred;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border: 1px solid darkred;
+} */
+
+.btn-del-last:hover,
+.btn-del-last:focus,
+.btn-del-all:hover,
+.btn-del-all:focus{
+    border: 1px solid darkred;
+    color: white;
+    background-color: darkred;
+}
+
+.btn-csv {
+    margin: 20px 0;
+    padding: 10px 25px;
+    color: darkgreen;
+    background-color: white;
+    border: 1px solid darkgreen;
+    /* font-size: 70px; */
+}
+
+.btn-csv:hover,
+.btn-csv:focus{
+    border: 1px solid darkgreen;
+    color: white;
+    background-color: darkgreen;
+}
+
+#increment {
+    
+}
+
+
+
+#count {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#pelicans {
+    color: #131313;
+    font-size: 14px;
+    
+}
+
+#date-time {
+    color: #131313;
+    font-size: 14px;
+    
+}
+
+table {
+  margin: 0 auto;
+  table-layout: auto;
+  width: 400px;
+  border-collapse: collapse;
+  /* border: 2px solid gray; */
+  /* color: #4472C4; */
+}
+
+/* thead th:nth-child(1) {
+  width: 20%;
+}
+
+thead th:nth-child(2) {
+  width: 30%;
+}
+
+thead th:nth-child(3) {
+  width: 50%;
+} */
+
+
+td {
+  padding: 7px;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  /* background-color: black; */
+  color: white;
+}
+
+.delete-section {
+    margin: 10px;
+   border-top: 1px gray solid; 
+}
+
+.table-section {
+    margin-bottom: 30px;
+}
+
+table {
+  background-color: #adc2eb;
+  /* color: white; */
+}

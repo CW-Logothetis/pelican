@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <title>Arrival and Departure counts for Pelicans in Prespa</title>
+        <link rel="stylesheet" href="index.css">
+</head>
+    
+<body class="bg">
+    
+        <header>
+            <!-- <h1>Bird Count App</h1> -->
+            <h1>Arrival/Departure Counter</h1>
+        </header>
+        
+<main>
+       <section id="container-top">
+            <div id="count-border">
+                <!-- <h2>Current count:</h2> -->
+                <div id="pelican-counter"></div>
+            </div>
+       
+            <!-- <div class="btn-container"> -->
+                <container id="button-box">
+                    <!-- <h3 id="h3-button">DP</h3> -->
+                    <button class="btn btn-plus" id="increment-btn">+</button>
+                    <button class="btn btn-minus" id="decrement-btn">-</button>
+                </container>
+            
+            <!-- <container class="emoji-button-box">
+                <h3 id="h3-button">WP</h3>
+                <button class="btn btn-plus" id="increment-btn-wp">+</button>
+                <button class="btn" id="decrement-btn-wp">-</button>
+            </container> -->
+            <!-- </div> -->
+       
+       </section>
+       
+        <section class="pel-container">    
+            
+            <button class="btn btn-pelican" id="save-dal-btn">Dalmatian</button>
+            <button class="btn btn-pelican" id="save-white-btn">White</button>
+            
+        </section>
+       
+       
+       
+        <section class="table-section">
+            <h3>Saved entries:</h3>
+            <table id="saved-display"></table>
+        </section>
+        
+        <section class="delete-section">
+            <button class="btn btn-del-last" id="delete-last-btn">Delete last</button>
+            <button class="btn btn-del-all" id="delete-all-btn">Delete ALL</button>
+        </section>
+       
+       <section>    
+            
+            <!-- <button class="btn btn-csv" id="csv-btn">Export to CSV</button> -->
+            <button class="btn btn-csv" onclick="exportTableToCSV('members.csv')">Export to CSV</button>
+            
+        </section>
+       
+        <script src="index.js"></script>
+        
+</main>
+
+</body>
+
+</html>
